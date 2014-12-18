@@ -1,0 +1,18 @@
+first Create a mtrix with make method and assign it to a varialbe "mat"
+next invoke the cacheSolve method to test.
+
+Belsoe is the sample of the console.
+
+
+> source("cachematrix.R")
+> mat <- makeCacheMatrix(matrix(data = c(4,2,9,6), nrow = 2, ncol = 2))
+> cacheSolve(mat)
+           [,1]       [,2]
+[1,]  1.0000000 -1.5000000
+[2,] -0.3333333  0.6666667
+> cacheSolve(mat)
+getting cached data
+           [,1]       [,2]
+[1,]  1.0000000 -1.5000000
+[2,] -0.3333333  0.6666667
+> 
